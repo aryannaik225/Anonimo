@@ -230,7 +230,7 @@ body {
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
-  line-height: 134.483%; /* 64.552px */
+  line-height: 100%; /* 64.552px */
 }
 
 .feedback-subtext-text {
@@ -242,62 +242,231 @@ body {
 color: #FF7395;
 }
 
+
+/* ----------------------------- Anonymous Opinions ------------------------------- */
+
 .anonymous-cloud-img {
+  width: 0px;
+  height: 0px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-cloud-img {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.anonymous-cloud {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.anonymous-grad-hat-img{
+  width: 0px;
+  height: 0px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-grad-hat-img {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.anonymous-grad-hat {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.anonymous-pink-heart-img {
+  width: 0px;
+  height: 0px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-pink-heart-img {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.anonymous-pink-heart {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext1.anonymous-cloud-img {
   width: 286px;
   height: 286px;
 }
 
 @media (min-width: 1281px) {
-  .anonymous-cloud-img {
+  .subtext1.anonymous-cloud-img {
     width: 426px;
     height: 426px;
   }
 }
 
-.anonymous-cloud {
+.subtext1.anonymous-cloud {
   top: -25px;
   right: 39px;
   position: absolute;
   z-index: 2;
 }
 
-.anonymous-grad-hat-img{
+.subtext1.anonymous-grad-hat-img{
   width: 255px;
   height: 255px;
 }
 
 @media (min-width: 1281px) {
-  .anonymous-grad-hat-img {
+  .subtext1.anonymous-grad-hat-img {
     width: 450px;
     height: 450px;
   }
 }
 
-.anonymous-grad-hat {
+.subtext1.anonymous-grad-hat {
   top: 459px;
   left: 16px;
   position: absolute;
 }
 
-.anonymous-pink-heart-img {
+.subtext1.anonymous-pink-heart-img {
   width: 223.707px;
   height: 223.71px;
 }
 
 @media (min-width: 1281px) {
-  .anonymous-pink-heart-img {
+  .subtext1.anonymous-pink-heart-img {
     width: 320px;
     height: 320px;
   }
 }
 
-.anonymous-pink-heart {
+.subtext1.anonymous-pink-heart {
   top: 581px;
   right: 62.82px;
   position: absolute;
 }
 
-.convo-text {
+.anonymous-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+  opacity: 0;
+}
+
+.anonymous-convo-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-1-img {
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-1-text {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+
+.anonymous-convo-2 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-2-img {
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-2-text {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 14px;
+  right: 6.23px;
+}
+
+.anonymous-convo-3 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-3-img {
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-3-text {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+
+.anonymous-convo-4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-4-img {
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-4-text {
+  width: 0px;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+
+.subtext1.anonymous-convo-text {
   color: black;
   text-align: center;
   font-family: 'Poppins', Helvetica;
@@ -308,61 +477,61 @@ color: #FF7395;
   z-index: 2;
 }
 
-.anonymous-convo-1 {
+.subtext1.anonymous-convo-1 {
   top: 182px;
-  left: 300px;
+  left: 200px;
   position: absolute;
   flex-shrink: 0;
 }
 
-.anonymous-convo-1-img {
-  width: 254px;
-  height: 77px;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.anonymous-convo-1-text {
-  width: 237px;
-  height: 55px;
-  position: absolute;
-  top: 15px;
-  left: 10px;
-}
-
-.anonymous-convo-2 {
-  top: 284px;
-  right: 89px;
-  position: absolute;
-  flex-shrink: 0;
-  z-index: 1;
-}
-
-.anonymous-convo-2-img {
-  width: 260px;
+.subtext1.anonymous-convo-1-img {
+  width: 274px;
   height: 87px;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
-.anonymous-convo-2-text {
+.subtext1.anonymous-convo-1-text {
   width: 237px;
   height: 55px;
   position: absolute;
-  top: 23px;
-  left: 12.23px;
+  top: 13px;
+  left: 19px;
 }
 
-.anonymous-convo-3 {
+.subtext1.anonymous-convo-2 {
+  top: 274px;
+  right: 89px;
+  position: absolute;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.subtext1.anonymous-convo-2-img {
+  width: 250px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.subtext1.anonymous-convo-2-text {
+  width: 237px;
+  height: 55px;
+  position: absolute;
+  top: 14px;
+  right: 6.23px;
+}
+
+.subtext1.anonymous-convo-3 {
   top: 483px;
   right: 15px;
   position: absolute;
   flex-shrink: 0;
 }
 
-.anonymous-convo-3-img {
+.subtext1.anonymous-convo-3-img {
   width: 274px;
   height: 109px;
   top: 0;
@@ -370,22 +539,22 @@ color: #FF7395;
   z-index: 1;
 }
 
-.anonymous-convo-3-text {
+.subtext1.anonymous-convo-3-text {
   width: 237px;
   height: 71px;
   position: absolute;
-  top: 22px;
-  left: 24px;
+  top: 13px;
+  left: 19px;
 }
 
-.anonymous-convo-4 {
+.subtext1.anonymous-convo-4 {
   top: 361px;
   left: 35px;
   position: absolute;
   flex-shrink: 0;
 }
 
-.anonymous-convo-4-img {
+.subtext1.anonymous-convo-4-img {
   width: 231px;
   height: 87px;
   top: 0;
@@ -393,9 +562,335 @@ color: #FF7395;
   z-index: 1;
 }
 
-.anonymous-convo-4-text {
+.subtext1.anonymous-convo-4-text {
   width: 200px;
   position: absolute;
-  top: 20px;
+  top: 14px;
   left: 15px;
 }
+
+.anonymous-convo-text,
+.anonymous-cloud-img,
+.anonymous-grad-hat-img,
+.anonymous-pink-heart-img,
+.anonymous-convo-1-img,
+.anonymous-convo-2-img,
+.anonymous-convo-3-img,
+.anonymous-convo-4-img {
+  transition: all 0.5s ease;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.subtext1.anonymous-convo-text,
+.subtext1.anonymous-cloud-img,
+.subtext1.anonymous-grad-hat-img,
+.subtext1.anonymous-pink-heart-img,
+.subtext1.anonymous-convo-1-img,
+.subtext1.anonymous-convo-2-img,
+.subtext1.anonymous-convo-3-img,
+.subtext1.anonymous-convo-4-img {
+  font-size: 16px;
+  opacity: 1;
+}
+
+/* ------------------------------------ Workplace Insights ------------------------------------ */
+
+.workplace-like{
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-like {
+  top: 19px;
+  right: 93.82px;
+  position: absolute;
+}
+
+.workplace-like-img{
+  width: 0px;
+  height: 0px;
+}
+
+.subtext2.workplace-like-img {
+  width: 243.18px;
+  height: 243.18px;
+}
+
+.workplace-rocket {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-rocket {
+  top: 394px;
+  right: 64.6px;
+  position: absolute;
+}
+
+.workplace-rocket-img {
+  width: 0px;
+  height: 0px;
+}
+
+.subtext2.workplace-rocket-img {
+  width: 263px;
+  height: 263px;
+}
+
+.workplace-shield {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-shield {
+  top: 123px;
+  left: 92px;
+  position: absolute;
+}
+
+.workplace-shield-img {
+  width: 0px;
+  height: 0px;
+}
+
+.subtext2.workplace-shield-img {
+  width: 293px;
+  height: 293px;
+}
+
+.workplace-briefcase {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-briefcase {
+  top: 489px;
+  left: -14.3px;
+  position: absolute
+}
+
+.workplace-briefcase-img {
+  width: 0px;
+  height: 0px;
+}
+
+.subtext2.workplace-briefcase-img {
+  width: 335px;
+  height: 335px;
+}
+
+.workplace-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+  opacity: 0;
+}
+
+.subtext2.workplace-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+}
+
+.workplace-convo-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-convo-1 {
+  top: 79px;
+  left: 60px;
+  position: absolute;
+}
+
+.workplace-convo-1-img {
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+}
+
+.subtext2.workplace-convo-1-img {
+  width: 250px;
+  height: 87px;
+  top: 0;
+  left: 0;
+}
+
+.workplace-convo-1-text {
+  width: 0;
+}
+
+.subtext2.workplace-convo-1-text {
+  width: 216.45px;
+  top: 14px;
+  left: 16.23px;
+  position: absolute;
+}
+
+.workplace-convo-2 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-convo-2 {
+  top: 276px;
+  right: 191px;
+  position: absolute;
+}
+
+.workplace-convo-2-img {
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+}
+
+.subtext2.workplace-convo-2-img {
+  width: 231px;
+  height: 87px;
+  top: 0;
+  left: 0;
+}
+
+.workplace-convo-2-text {
+  width: 0;
+}
+
+.subtext2.workplace-convo-2-text {
+  width: 200px;
+  top: 14px;
+  left: 15px;
+  position: absolute;
+}
+
+.workplace-convo-3 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-convo-3 {
+  top: 662px;
+  right: 78px;
+  position: absolute;
+}
+
+.workplace-convo-3-img {
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+}
+
+.subtext2.workplace-convo-3-img {
+  width: 274px;
+  height: 109px;
+  top: 0;
+  left: 0;
+}
+
+.workplace-convo-3-text {
+  width: 0;
+}
+
+.subtext2.workplace-convo-3-text {
+  top: 13px;
+  left: 13px;
+  width: 248px;
+  position: absolute;
+}
+
+.workplace-convo-4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.subtext2.workplace-convo-4 {
+  top: 446px;
+  left: 101px;
+  position: absolute;
+}
+
+.workplace-convo-4-img {
+  width: 0px;
+  height: 0px; 
+  top: 0;
+  left: 0;
+}
+
+.subtext2.workplace-convo-4-img {
+  width: 274px;
+  height: 109px;
+  top: 0;
+  left: 0;
+}
+
+.workplace-convo-4-text {
+  width: 0px;
+}
+
+.subtext2.workplace-convo-4-text {
+  width: 237px;
+  top: 13px;
+  left: 19px;
+  position: absolute;
+}
+
+.workplace-convo-text,
+.workplace-like-img,
+.workplace-rocket-img,
+.workplace-shield-img,
+.workplace-briefcase-img,
+.workplace-convo-1-img,
+.workplace-convo-2-img,
+.workplace-convo-3-img,
+.workplace-convo-4-img {
+  transition: all 0.5s ease;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.subtext2.workplace-convo-text,
+.subtext2.workplace-like-img,
+.subtext2.workplace-rocket-img,
+.subtext2.workplace-shield-img,
+.subtext2.workplace-briefcase-img,
+.subtext2.workplace-convo-1-img,
+.subtext2.workplace-convo-2-img,
+.subtext2.workplace-convo-3-img,
+.subtext2.workplace-convo-4-img {
+  font-size: 16px;
+  opacity: 1;
+}
+
