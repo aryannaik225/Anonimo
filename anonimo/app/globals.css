@@ -79,6 +79,26 @@ body {
   100%   { transform: translate(0, -0px); }    
 }
 
+.floatee2 {
+  animation: floating2 5s infinite;
+}
+
+@keyframes floating2 {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(5px, 10px); }
+  100%   { transform: translate(0px, -0px); }    
+}
+
+.floatee3 {
+  animation: floating3 6s infinite;
+}
+
+@keyframes floating3 {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 20px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
 .hero-text {
   color: #FFF;
   font-family: 'Poppins', Helvetica;
@@ -220,4 +240,162 @@ body {
 
 .feedback-subtext-text:hover {
 color: #FF7395;
+}
+
+.anonymous-cloud-img {
+  width: 286px;
+  height: 286px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-cloud-img {
+    width: 426px;
+    height: 426px;
+  }
+}
+
+.anonymous-cloud {
+  top: -25px;
+  right: 39px;
+  position: absolute;
+  z-index: 2;
+}
+
+.anonymous-grad-hat-img{
+  width: 255px;
+  height: 255px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-grad-hat-img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+.anonymous-grad-hat {
+  top: 459px;
+  left: 16px;
+  position: absolute;
+}
+
+.anonymous-pink-heart-img {
+  width: 223.707px;
+  height: 223.71px;
+}
+
+@media (min-width: 1281px) {
+  .anonymous-pink-heart-img {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+.anonymous-pink-heart {
+  top: 581px;
+  right: 62.82px;
+  position: absolute;
+}
+
+.convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+}
+
+.anonymous-convo-1 {
+  top: 182px;
+  left: 300px;
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-1-img {
+  width: 254px;
+  height: 77px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-1-text {
+  width: 237px;
+  height: 55px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.anonymous-convo-2 {
+  top: 284px;
+  right: 89px;
+  position: absolute;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-2-img {
+  width: 260px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-2-text {
+  width: 237px;
+  height: 55px;
+  position: absolute;
+  top: 23px;
+  left: 12.23px;
+}
+
+.anonymous-convo-3 {
+  top: 483px;
+  right: 15px;
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-3-img {
+  width: 274px;
+  height: 109px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-3-text {
+  width: 237px;
+  height: 71px;
+  position: absolute;
+  top: 22px;
+  left: 24px;
+}
+
+.anonymous-convo-4 {
+  top: 361px;
+  left: 35px;
+  position: absolute;
+  flex-shrink: 0;
+}
+
+.anonymous-convo-4-img {
+  width: 231px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.anonymous-convo-4-text {
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 15px;
 }
