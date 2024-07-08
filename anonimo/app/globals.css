@@ -1208,10 +1208,11 @@ color: #FF7395;
 }
 
 .subtext4.relationship-icecream {
-  top: 353.66px;
-  left: 13px;
-  width: 316.75px;
-  height: 316.75px;
+  top: 554px;
+  left: 179px;
+  width: 180.288px;
+  height: 324.277px;
+  transform: rotate(18.538deg);
   position: absolute;
 }
 
@@ -1221,8 +1222,9 @@ color: #FF7395;
 }
 
 .subtext4.relationship-icecream-img {
-  width: 316.75px;
-  height: 316.75px;
+  width: 180.288px;
+  height: 324.277px;
+  transform: rotate(18.538deg);
 }
 
 .relationship-pink-heart {
@@ -1265,6 +1267,7 @@ color: #FF7395;
   width: 351px;
   height: 351px;
   position: absolute;
+  z-index: 2;
 }
 
 .relationship-cloud-img {
@@ -1286,7 +1289,7 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-1 {
-  top: 139px;
+  top: 239px;
   left: 81px;
   width: 231px;
   height: 61px;
@@ -1364,11 +1367,12 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-3 {
-  top: 581px;
+  top: 591px;
   right: 107px;
   width: 234px;
   height: 63px;
   position: absolute;
+  z-index: 1;
 }
 
 .relationship-convo-3-img {
@@ -1403,7 +1407,7 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-4 {
-  top: 311px;
+  top: 411px;
   left: 123px;
   width: 236px;
   height: 77px;
@@ -1484,3 +1488,29 @@ color: #FF7395;
   opacity: 1;
 }
 
+/* Random stuff started again */
+
+.bottom-bg {
+  background: url(../public/home-bottom-sec-bg.png);
+  background-size: cover;
+}
+
+.scroll-more2 {
+  color: #000;
+  font-family: 'Poppins', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.buzz-text {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130.913%; /* 125.676px */
+  width: 409px;
+}

@@ -177,22 +177,22 @@ const FeedbackZone = () => {
 
         <div className={`relationship-convo-1 floatee ${hovered}`}>
             <Image src={AnonymousCloudConv1} className={`relationship-convo-1-img ${hovered}`} />
-            <p className={`relationship-convo-text relationship-convo-1-text ${hovered}`}>How can I be a better friend?</p>
+            <p className={`relationship-convo-text relationship-convo-1-text ${hovered}`}>Am I a good listener?</p>
         </div>
 
         <div className={`relationship-convo-2 floatee3 ${hovered}`}>
             <Image src={AnonymousCloudConv2} className={`relationship-convo-2-img ${hovered}`} />
-            <p className={`relationship-convo-text relationship-convo-2-text ${hovered}`}>What can I do to be a better partner?</p>
+            <p className={`relationship-convo-text relationship-convo-2-text ${hovered}`}>How can I be more supportive?</p>
         </div>
 
         <div className={`relationship-convo-3 floatee2 ${hovered}`}>
             <Image src={AnonymousCloudConv3} className={`relationship-convo-3-img ${hovered}`} />
-            <p className={`relationship-convo-text relationship-convo-3-text ${hovered}`}>How can I improve my relationships with family?</p>
+            <p className={`relationship-convo-text relationship-convo-3-text ${hovered}`}>What habits annoy you?</p>
         </div>
 
         <div className={`relationship-convo-4 floatee3 ${hovered}`}>
             <Image src={AnonymousCloudConv4} className={`relationship-convo-4-img ${hovered}`} />
-            <p className={`relationship-convo-text relationship-convo-4-text ${hovered}`}>What can I do to be a better listener?</p>
+            <p className={`relationship-convo-text relationship-convo-4-text ${hovered}`}>Do I communicate well?</p>
         </div>
 
 
