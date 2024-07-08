@@ -4,6 +4,7 @@
 
 body {
   background-color: #000000;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -258,9 +259,8 @@ color: #FF7395;
 }
 
 .anonymous-cloud {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
   z-index: 2;
 }
@@ -278,9 +278,8 @@ color: #FF7395;
 }
 
 .anonymous-grad-hat {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   position: absolute;
 }
 
@@ -297,9 +296,8 @@ color: #FF7395;
 }
 
 .anonymous-pink-heart {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -371,9 +369,8 @@ color: #FF7395;
 }
 
 .anonymous-convo-1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   position: absolute;
   flex-shrink: 0;
 }
@@ -395,9 +392,8 @@ color: #FF7395;
 }
 
 .anonymous-convo-2 {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
   flex-shrink: 0;
   z-index: 1;
@@ -420,9 +416,8 @@ color: #FF7395;
 }
 
 .anonymous-convo-3 {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
   flex-shrink: 0;
 }
@@ -444,9 +439,8 @@ color: #FF7395;
 }
 
 .anonymous-convo-4 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   position: absolute;
   flex-shrink: 0;
 }
@@ -577,7 +571,7 @@ color: #FF7395;
 .anonymous-convo-2-img,
 .anonymous-convo-3-img,
 .anonymous-convo-4-img {
-  transition: all 0.5s ease;
+  transition: all 0s ease;
   font-size: 0;
   width: 0;
   height: 0;
@@ -592,6 +586,7 @@ color: #FF7395;
 .subtext1.anonymous-convo-2-img,
 .subtext1.anonymous-convo-3-img,
 .subtext1.anonymous-convo-4-img {
+  transition: all 0.5s ease;
   font-size: 16px;
   opacity: 1;
 }
@@ -599,9 +594,8 @@ color: #FF7395;
 /* ------------------------------------ Workplace Insights ------------------------------------ */
 
 .workplace-like{
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -622,9 +616,8 @@ color: #FF7395;
 }
 
 .workplace-rocket {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -645,15 +638,16 @@ color: #FF7395;
 }
 
 .workplace-shield {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
 .subtext2.workplace-shield {
   top: 123px;
   left: 92px;
+  width: 293px;
+  height: 293px;
   position: absolute;
 }
 
@@ -668,15 +662,16 @@ color: #FF7395;
 }
 
 .workplace-briefcase {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
 .subtext2.workplace-briefcase {
   top: 489px;
   left: -14.3px;
+  width: 335px;
+  height: 335px;
   position: absolute
 }
 
@@ -714,9 +709,8 @@ color: #FF7395;
 }
 
 .workplace-convo-1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   position: absolute;
 }
 
@@ -752,9 +746,8 @@ color: #FF7395;
 }
 
 .workplace-convo-2 {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -790,9 +783,8 @@ color: #FF7395;
 }
 
 .workplace-convo-3 {
-  top: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   position: absolute;
 }
 
@@ -828,9 +820,8 @@ color: #FF7395;
 }
 
 .workplace-convo-4 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   position: absolute;
 }
 
@@ -874,7 +865,7 @@ color: #FF7395;
 .workplace-convo-2-img,
 .workplace-convo-3-img,
 .workplace-convo-4-img {
-  transition: all 0.5s ease;
+  transition: all 0s ease;
   font-size: 0;
   width: 0;
   height: 0;
@@ -890,6 +881,605 @@ color: #FF7395;
 .subtext2.workplace-convo-2-img,
 .subtext2.workplace-convo-3-img,
 .subtext2.workplace-convo-4-img {
+  transition: all 0.5s ease;
+  font-size: 16px;
+  opacity: 1;
+}
+
+/* ---------------------------- Personal Growth ---------------------------------- */
+
+.personal-trophy {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-trophy {
+  top: -25px;
+  left: 40px;
+  width: 326.973px;
+  height: 326.973px;
+  position: absolute;
+}
+
+.personal-trophy-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext3.personal-trophy-img {
+  width: 326.973px;
+  height: 326.973px;
+}
+
+.personal-headphone {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-headphone {
+  top: 449px;
+  right: 2.77px;
+  width: 286.922px;
+  height: 286.922px;
+  position: absolute;
+}
+
+.personal-headphone-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext3.personal-headphone-img {
+  width: 286.922px;
+  height: 286.922px;
+}
+
+.personal-megaphone {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-megaphone {
+  top: 8px;
+  right: 79px;
+  width: 222px;
+  height: 222px;
+  position: absolute;
+}
+
+.personal-megaphone-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext3.personal-megaphone-img {
+  width: 222px;
+  height: 222px;
+}
+
+.personal-convo-1 {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-1 {
+  top: 341px;
+  left: 70px;
+  width: 231px;
+  height: 87px;
+  position: absolute;
+}
+
+.personal-convo-1-img {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-1-img {
+  top: 0;
+  left: 0;
+  width: 231px;
+  height: 87px;
+  position: absolute;
+}
+
+.personal-convo-1-text {
+  top: 14px;
+  left: 15px;
+  position: absolute;
+}
+
+.subtext3.personal-convo-1-text {
+  top: 14px;
+  left: 15px;
+  width: 200px;
+  position: absolute;
+}
+
+.personal-convo-2 {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-2 {
+  top: 268px;
+  right: 215.13px;
+  width: 233.871px;
+  height: 87px;
+  position: absolute;
+}
+
+.personal-convo-2-img {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-2-img {
+  top: 0;
+  left: 0;
+  width: 233.871px;
+  height: 87px;
+  position: absolute;
+}
+
+.personal-convo-2-text {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-2-text {
+  top: 14px;
+  right: 15.19px;
+  width: 202.486px;
+  position: absolute;
+}
+
+.personal-convo-3 {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-3 {
+  top: 388px;
+  right: 19px;
+  width: 244px;
+  height: 79px;
+  position: absolute;
+}
+
+.personal-convo-3-img {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-3-img {
+  top: 0;
+  left: 0;
+  width: 244px;
+  height: 79px;
+  position: absolute;
+}
+
+.personal-convo-3-text {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-3-text {
+  top: 9.42px;
+  left: 16.42px;
+  width: 211.051px;
+  position: absolute;
+}
+
+.personal-convo-4 {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-4 {
+  top: 570px;
+  left: 117px;
+  width: 236px;
+  height: 62px;
+  position: absolute;
+}
+
+.personal-convo-4-img {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-4-img {
+  top: 0;
+  left: 0;
+  width: 236px;
+  height: 62px;
+  position: absolute;
+}
+
+.personal-convo-4-text {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.subtext3.personal-convo-4-text {
+  top: 15px;
+  left: 24px;
+  width: 188px;
+  position: absolute;
+}
+
+.personal-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+  opacity: 0;
+}
+
+.subtext3.personal-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+}
+
+.personal-convo-text,
+.personal-trophy-img,
+.personal-headphone-img,
+.personal-megaphone-img,
+.personal-convo-1-img,
+.personal-convo-2-img,
+.personal-convo-3-img,
+.personal-convo-4-img {
+  transition: all 0s ease;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.subtext3.personal-convo-text,
+.subtext3.personal-trophy-img,
+.subtext3.personal-headphone-img,
+.subtext3.personal-megaphone-img,
+.subtext3.personal-convo-1-img,
+.subtext3.personal-convo-2-img,
+.subtext3.personal-convo-3-img,
+.subtext3.personal-convo-4-img {
+  transition: all 0.5s ease;
+  font-size: 16px;
+  opacity: 1;
+}
+
+/* ---------------------------------- Relationship ---------------------------------- */
+
+.relationship-icecream {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-icecream {
+  top: 353.66px;
+  left: 13px;
+  width: 316.75px;
+  height: 316.75px;
+  position: absolute;
+}
+
+.relationship-icecream-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-icecream-img {
+  width: 316.75px;
+  height: 316.75px;
+}
+
+.relationship-pink-heart {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-pink-heart {
+  top: 10px;
+  right: 61.82px;
+  width: 243.179px;
+  height: 243.182px;
+  position: absolute;
+}
+
+.relationship-pink-heart-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-pink-heart-img {
+  width: 243.179px;
+  height: 243.182px;
+}
+
+.relationship-cloud {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-cloud {
+  top: 350px;
+  right: -24px;
+  width: 351px;
+  height: 351px;
+  position: absolute;
+}
+
+.relationship-cloud-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-cloud-img {
+  width: 351px;
+  height: 351px;
+}
+
+.relationship-convo-1 {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-1 {
+  top: 139px;
+  left: 81px;
+  width: 231px;
+  height: 61px;
+  position: absolute;
+}
+
+.relationship-convo-1-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-convo-1-img {
+  width: 231px;
+  height: 61px;
+}
+
+.relationship-convo-1-text {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-1-text {
+  top: 14px;
+  left: 15px;
+  width: 200px;
+  position: absolute;
+}
+
+.relationship-convo-2 {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-2 {
+  top: 232px;
+  right: 97px;
+  width: 244px;
+  height: 79px;
+  position: absolute;
+}
+
+.relationship-convo-2-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-convo-2-img {
+  width: 244px;
+  height: 79px;
+}
+
+.relationship-convo-2-text {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-2-text {
+  top: 9.42px;
+  right: 16.03px;
+  width: 211.051px;
+  position: absolute;
+}
+
+.relationship-convo-3 {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-3 {
+  top: 581px;
+  right: 107px;
+  width: 234px;
+  height: 63px;
+  position: absolute;
+}
+
+.relationship-convo-3-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-convo-3-img {
+  width: 234px;
+  height: 63px;
+}
+
+.relationship-convo-3-text {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-3-text {
+  top: 14px;
+  left: 15.19px;
+  width: 202.486px;
+  position: absolute;
+}
+
+.relationship-convo-4 {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-4 {
+  top: 311px;
+  left: 123px;
+  width: 236px;
+  height: 77px;
+  position: absolute;
+}
+
+.relationship-convo-4-img {
+  width: 0;
+  height: 0;
+}
+
+.subtext4.relationship-convo-4-img {
+  width: 236px;
+  height: 77px;
+}
+
+.relationship-convo-4-text {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.subtext4.relationship-convo-4-text {
+  top: 12px;
+  left: 24px;
+  width: 188px;
+  position: absolute;
+}
+
+.relationship-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 0px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+  opacity: 0;
+}
+
+.subtext4.relationship-convo-text {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+}
+
+.relationship-convo-text,
+.relationship-icecream-img,
+.relationship-pink-heart-img,
+.relationship-cloud-img,
+.relationship-convo-1-img,
+.relationship-convo-2-img,
+.relationship-convo-3-img,
+.relationship-convo-4-img {
+  transition: all 0s ease;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.subtext4.relationship-convo-text,
+.subtext4.relationship-icecream-img,
+.subtext4.relationship-pink-heart-img,
+.subtext4.relationship-cloud-img,
+.subtext4.relationship-convo-1-img,
+.subtext4.relationship-convo-2-img,
+.subtext4.relationship-convo-3-img,
+.subtext4.relationship-convo-4-img {
+  transition: all 0.5s ease;
   font-size: 16px;
   opacity: 1;
 }

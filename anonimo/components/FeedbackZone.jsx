@@ -12,6 +12,12 @@ import WorkplaceLikeImg from '../public/like-image.png'
 import WorkplaceRocketImg from '../public/rocket-image.png'
 import WorkplaceShieldImg from '../public/shield-image.png'
 import WorkplaceBriefcaseImg from '../public/briefcase-image.png'
+import PersonalTrophyImg from '../public/trophy-image.png'
+import PersonalHeadphoneImg from '../public/headphone-image.png'
+import PersonalMegaphoneImg from '../public/megaphone-image.png'
+import RelationshipIcecreamImg from '../public/icecream-image.png'
+import RelationshipPinkHeartImg from '../public/pink-heart-image.png'
+import RelationshipCloudImg from '../public/realtionship-cloud-image.png'
 
 
 const FeedbackZone = () => {
@@ -120,8 +126,79 @@ const FeedbackZone = () => {
             <Image src={AnonymousCloudConv4} className={`workplace-convo-4-img ${hovered}`} />
             <p className={`workplace-convo-text workplace-convo-4-text ${hovered}`}>Are there any team members who consistently cause problems?</p>
         </div>
-          
+
+        {/* ------------------------------- Personal Growth ----------------------------------- */}
+
+        <div className={`personal-trophy floatee ${hovered}`}>
+            <Image src={PersonalTrophyImg} className={`personal-trophy-img ${hovered}`} />
+        </div>
+
+        <div className={`personal-headphone floatee2 ${hovered}`}>
+            <Image src={PersonalHeadphoneImg} className={`personal-headphone-img ${hovered}`} />
+        </div>
+
+        <div className={`personal-megaphone floatee3 ${hovered}`}>
+            <Image src={PersonalMegaphoneImg} className={`personal-megaphone-img ${hovered}`} />
+        </div>
+
+        <div className={`personal-convo-1 floatee ${hovered}`}>
+            <Image src={AnonymousCloudConv1} className={`personal-convo-1-img ${hovered}`} />
+            <p className={`personal-convo-text personal-convo-1-text ${hovered}`}>Do I lack confidence in any areas?</p>
+        </div>
+
+        <div className={`personal-convo-2 floatee3 ${hovered}`}>
+            <Image src={AnonymousCloudConv2} className={`personal-convo-2-img ${hovered}`} />
+            <p className={`personal-convo-text personal-convo-2-text ${hovered}`}>What habits should I improve?</p>
+        </div>
+
+        <div className={`personal-convo-3 floatee2 ${hovered}`}>
+            <Image src={AnonymousCloudConv3} className={`personal-convo-3-img ${hovered}`} />
+            <p className={`personal-convo-text personal-convo-3-text ${hovered}`}>Which skills should I develop?</p>
+        </div>
+
+        <div className={`personal-convo-4 floatee3 ${hovered}`}>
+            <Image src={AnonymousCloudConv4} className={`personal-convo-4-img ${hovered}`} />
+            <p className={`personal-convo-text personal-convo-4-text ${hovered}`}>What holds me back?</p>
+        </div>
+
+        {/* ---------------------------------- Relationships ---------------------------------------- */}
+
+        <div className={`relationship-icecream floatee ${hovered}`}>
+            <Image src={RelationshipIcecreamImg} className={`relationship-icecream-img ${hovered}`} />
+        </div>
+
+        <div className={`relationship-pink-heart floatee2 ${hovered}`}>
+            <Image src={RelationshipPinkHeartImg} className={`relationship-pink-heart-img ${hovered}`} />
+        </div>
+
+        <div className={`relationship-cloud floatee3 ${hovered}`}>
+            <Image src={RelationshipCloudImg} className={`relationship-cloud-img ${hovered}`} />
+        </div>
+
+        <div className={`relationship-convo-1 floatee ${hovered}`}>
+            <Image src={AnonymousCloudConv1} className={`relationship-convo-1-img ${hovered}`} />
+            <p className={`relationship-convo-text relationship-convo-1-text ${hovered}`}>How can I be a better friend?</p>
+        </div>
+
+        <div className={`relationship-convo-2 floatee3 ${hovered}`}>
+            <Image src={AnonymousCloudConv2} className={`relationship-convo-2-img ${hovered}`} />
+            <p className={`relationship-convo-text relationship-convo-2-text ${hovered}`}>What can I do to be a better partner?</p>
+        </div>
+
+        <div className={`relationship-convo-3 floatee2 ${hovered}`}>
+            <Image src={AnonymousCloudConv3} className={`relationship-convo-3-img ${hovered}`} />
+            <p className={`relationship-convo-text relationship-convo-3-text ${hovered}`}>How can I improve my relationships with family?</p>
+        </div>
+
+        <div className={`relationship-convo-4 floatee3 ${hovered}`}>
+            <Image src={AnonymousCloudConv4} className={`relationship-convo-4-img ${hovered}`} />
+            <p className={`relationship-convo-text relationship-convo-4-text ${hovered}`}>What can I do to be a better listener?</p>
+        </div>
+
+
     </div>
+
+    
   )
 }
 
