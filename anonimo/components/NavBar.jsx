@@ -4,6 +4,7 @@ import { withCoalescedInvoke } from 'next/dist/lib/coalesced-function';
 import AnonimoLogo from '../public/anonimo-logo.svg';
 import Github from '../public/github-logo.svg';
 import Instagram from '../public/instagram-logo.svg';
+import Link from 'next/link';
 
 const NavBar = () => {
   return (
@@ -12,7 +13,7 @@ const NavBar = () => {
           <a href="/"><Image src={AnonimoLogo}/></a>
         </div> 
         <div className='flex gap-12 relative'>
-            <p className='nav-links cursor-pointer'>FAQ</p>
+            <Link href="/FAQ"><p className='nav-links cursor-pointer'>FAQ</p></Link>
             <p className='nav-links cursor-pointer'>About</p>
             <p className='nav-links cursor-pointer'>Feedbacks</p>
             <p className='nav-links cursor-pointer'>Contact us</p>

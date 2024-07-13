@@ -1641,3 +1641,74 @@ color: #FF7395;
   font-weight: 800;
   line-height: normal;
 }
+
+.faq-bg {
+  border-radius: 37px;
+  background: linear-gradient(149deg, #FFC096 0%, #FF7395 100%);
+  width: 94.375%;
+}
+
+.faq-txt {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.faq-title {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.faq-ques {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.faq-ans {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 96.50%;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gear {
+  width: 100px;
+  height: 100px;
+  animation: rotate 4s linear infinite;
+}
+
+.gear img {
+  width: 100%;
+  height: 100%;
+  filter: invert(47%) sepia(95%) saturate(494%) hue-rotate(353deg) brightness(96%) contrast(98%);
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
