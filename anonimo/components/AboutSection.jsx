@@ -8,6 +8,10 @@ import Diag2 from '../public/about-convo-cloud-art.png'
 import AboutPic1 from '../public/about-us-pic1.png'
 import AboutPic2 from '../public/about-us-pic2.png'
 import AnonimoLogo from '../public/Anonimo-about.png'
+import StarImg from '../public/star-img.png'
+import RocketImg from '../public/rocket-img.png'
+import JoinBuzzAbout from './JoinBuzzAbout'
+import FooterFAQ from './FooterFAQ'
 
 const AboutSection = () => {
   return (
@@ -52,7 +56,7 @@ const AboutSection = () => {
             </div>
         </div>
         <div className='mt-24 w-full flex justify-center'>
-          <div style={{width: "87.73%"}}>
+          <div style={{width: "87.73%", maxWidth: "1123px"}}>
             
             <div className='flex justify-between items-center'>
                 <div>
@@ -62,12 +66,37 @@ const AboutSection = () => {
                 </div>
 
                 <div>
-                  <Image src={AnonimoLogo} alt="Anonimo-logo" className='about-us-anonimo floatee'/>
+                  <Image src={AnonimoLogo} alt="Anonimo-logo" className='about-us-anonimo floatee pointer-events-none'/>
                 </div>
-
             </div>
 
+            <div className='flex justify-between items-center mt-6'>
+                <div>
+                  <Image src={StarImg} alt="star-img" className='about-us-star floatee3 pointer-events-none'/>
+                </div>
+
+                <div>
+                  <p className='about-us-ans'>As a solo developer, I have poured my knowledge and enthusiasm into building this platform. Anonymous Circle Feedback is designed to help you gain true insights and make informed decisions based on candid feedback from your trusted circle.</p>
+                </div>
+            </div>
+
+            <div className='flex justify-between items-center mt-36'>
+                <div>
+                    <p className='about-us-ques'>my goal</p>
+                    <p className='about-us-ans mt-8'>The goal is to create a platform that fosters genuine, honest communication by enabling anonymous feedback. We aim to provide a safe space where individuals can share and receive unbiased opinions from their circle of friends, family, and colleagues. By removing the fear of judgment and social pressure, we strive to help users gain valuable insights, make informed decisions, and promote personal and professional growth.</p>
+                </div>
+
+                <div>
+                  <Image src={RocketImg} alt="rocket-img" className='about-us-rocket floatee2 pointer-events-none'/>
+                </div>
+            </div>
           </div>
+        </div>
+        <div className='mt-24 w-full justify-center'>
+          <JoinBuzzAbout />
+        </div>
+        <div className='w-full absolute' style={{top: "3175px"}}>
+            <FooterFAQ />
         </div>
     </div>
   )

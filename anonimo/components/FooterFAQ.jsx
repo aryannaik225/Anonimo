@@ -3,7 +3,7 @@ import HeartLogo from '../public/heart-logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Footer = () => {
+const FooterFAQ = () => {
   return (
     <div className='flex w-full justify-center absolute items-center' style={{height: "50px"}}>
         <div className='flex justify-between' style={{width: "95.39065%"}}>
@@ -26,4 +26,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterFAQ
