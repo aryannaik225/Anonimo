@@ -1493,6 +1493,7 @@ color: #FF7395;
 .bottom-bg {
   background: url(../public/home-bottom-sec-bg.png);
   background-size: cover;
+  border-radius: 0px 0px 37px 37px;
 }
 
 .scroll-more2 {
@@ -1513,4 +1514,130 @@ color: #FF7395;
   font-weight: 700;
   line-height: 130.913%; /* 125.676px */
   width: 409px;
+}
+
+.buzz-text2 {
+  color: #FF9695;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130.913%; /* 31.419px */
+  transition: all 0.2s ease-in-out;
+}
+
+.buzz-text3 {
+  color: #FFC096;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130.913%; /* 31.419px */
+  transition: all 0.2s ease-in-out;
+}
+
+.g-s-btn {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.g-s-btn-main:hover .buzz-text2{
+  transform: translate(0, -81px);
+} 
+
+.g-s-btn-main:hover .buzz-text3{
+  transform: translate(0, -81px);
+} 
+
+.light-bulb-div {
+  position: absolute;
+  left: 204px;
+  top: -35px;
+  width: 307.497px;
+  height: 307.497px;
+}
+
+.light-bulb-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 307.497px;
+  height: 307.497px;
+}
+
+.phone-div {
+  position: absolute;
+  top: 300px;
+  left: 172px;
+  width: 200px;
+  height: 256.117px;
+}
+
+.phone-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 256.117px;
+}
+
+.cam-div {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  width: 270px;
+  height: 260.04px;
+}
+
+.cam-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 260.04px;
+}
+
+
+.star-div {
+  position: absolute;
+  top: -30.29px;
+  right: 177.64px;
+  width: 298px;
+  height: 298px;
+}
+
+.star-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 298px;
+  height: 298px;
+}
+
+.footer-txt {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-txt:hover {
+  transform: translateY(-5px);
+}
+
+.footer-txt2 {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }

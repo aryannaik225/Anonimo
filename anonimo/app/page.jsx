@@ -5,6 +5,7 @@ import React from "react";
 import HeroSection from "@components/components/HeroSection";
 import FeedbackZone from "@components/components/FeedbackZone";
 import JoinBuzz from "@components/components/JoinBuzz";
+import Footer from "@components/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <TextCarousel />
       <HeroSection />
       <FeedbackZone /> 
-      <JoinBuzz /> 
+      <JoinBuzz />
+      <Footer /> 
     </main>
   );
 }

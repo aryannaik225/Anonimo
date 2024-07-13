@@ -27,7 +27,7 @@ const TextCarousel = () => {
   ];
 
   return (
-    <div className='carouselWrapperWrap'> 
+    <div className='carouselWrapperWrap' id='anonimo'> 
         <Marquee velocity={20} pauseOnHover={true}>
           {items.map((item, index) => (
             <div key={index} className='item'>
