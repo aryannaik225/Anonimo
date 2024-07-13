@@ -14,7 +14,7 @@ const NavBar = () => {
         </div> 
         <div className='flex gap-12 relative'>
             <Link href="/FAQ"><p className='nav-links cursor-pointer'>FAQ</p></Link>
-            <p className='nav-links cursor-pointer'>About</p>
+            <Link href="/About"><p className='nav-links cursor-pointer'>About</p></Link>
             <p className='nav-links cursor-pointer'>Feedbacks</p>
             <p className='nav-links cursor-pointer'>Contact us</p>
         </div>

@@ -1712,3 +1712,153 @@ color: #FF7395;
       transform: rotate(360deg);
   }
 }
+
+.about-us-title {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 82.03125%;
+}
+
+.about-pic-bg {
+  border-radius: 30px;
+  background: linear-gradient(81deg, #FFC096 0%, #FF7295 100%);
+}
+
+.camera-about-div {
+  display: flex;
+  width: 206.366px;
+  height: 168.807px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.notebook-about-div {
+  display: flex;
+  width: 226.804px;
+  height: 270.178px;
+  right: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  top: 27.4px;
+  position: absolute;
+}
+
+.about-diag-1-div {
+  width: 274px;
+  height: 68px;
+  flex-shrink: 0;
+  top: 22px;
+  left: 186px;
+  position: absolute;
+}
+
+.about-diag1-inner {
+  width: 274px;
+  height: 51.846px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.about-diag-text {
+  color: #000;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-diag-2-div {
+  width: 274px;
+  height: 68px;
+  flex-shrink: 0;
+  top: 53px;
+  right: 167px;
+  position: absolute;
+}
+
+.about-diag-2 {
+  width: 274px;
+  height: 59px;
+}
+
+.about-diag2-inner {
+  width: 274px;
+  height: 51.846px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.about-pics-div {
+  width: 440.39px;
+  height: 348.691px;
+  flex-shrink: 0; 
+  position: absolute;
+  top: 102px;
+  left: 239px;
+}
+
+.about-pic1 {
+  display: flex;
+  width: 234.037px;
+  height: 291.135px;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.about-pic2 {
+  display: flex;
+  width: 255.39px;
+  height: 304.691px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.about-us-ques {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-us-ans {
+  color: #FFF;
+  font-family: 'Poppins', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 648px;
+}
+
+.about-us-anonimo {
+  width: 315px;
+  height: 69.09px;
+}
