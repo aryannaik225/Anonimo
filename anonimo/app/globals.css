@@ -1872,3 +1872,16 @@ color: #FF7395;
   width: 338.405px;
   height: 338.405px;
 }
+
+.feedbackcode-txt {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Poppins', Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: lowercase;
+  width: 85.3476821%;
+  max-width: 930px;
+}

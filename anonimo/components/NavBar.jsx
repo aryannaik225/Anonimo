@@ -15,7 +15,7 @@ const NavBar = () => {
         <div className='flex gap-12 relative'>
             <Link href="/FAQ"><p className='nav-links cursor-pointer'>FAQ</p></Link>
             <Link href="/About"><p className='nav-links cursor-pointer'>About</p></Link>
-            <p className='nav-links cursor-pointer'>Feedbacks</p>
+            <Link href="/FeedbacksCode"><p className='nav-links cursor-pointer'>Feedbacks</p></Link>
             <Link href="mailto:aryann2203@gmail.com?subject=Anonimo%20Website"><p className='nav-links cursor-pointer'>Contact us</p></Link>
         </div>
         <div className='bg-black rounded-full flex justify-center items-center gap-8' style={{width: '123px', height: '51px'}}>
