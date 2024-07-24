@@ -12,6 +12,16 @@ body {
   src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
 
+@font-face {
+  font-family: 'Satoshi Variable';
+  src: url('../public/fonts/Satoshi-Variable/Satoshi-Variable.ttf');
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../public/fonts/Satoshi-Variable/Satoshi-Medium.ttf');
+}
+
 .carouselWrapperWrap{
   width: 100%;
   overflow: hidden;
@@ -1884,4 +1894,35 @@ color: #FF7395;
   text-transform: lowercase;
   width: 85.3476821%;
   max-width: 930px;
+}
+
+.form-title-txt {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: lowercase;
+  width: 85.34%;
+  max-width: 1031px;
+}
+
+.personal-info-txt {
+  color: #000;
+  font-family: "Satoshi-Medium";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.personal-info-txt2 {
+  color: #9F9F9F;
+  font-family: "Satoshi Variable";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

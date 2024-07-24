@@ -20,7 +20,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className='w-full flex justify-center mt-7'>
-          <a href="">
+          <a href="/FeedbackForm/Personal-Information">
             <div className='btn-bg h-20 rounded-full bg-white flex justify-center items-center overflow-hidden relative mb-16' style={{width: "277px"}}>
               <div className='hover-layer'></div>
               <p className='button-text'>Get Started</p>
