@@ -1943,6 +1943,33 @@ color: #FF7395;
   width: 82.03125%;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .about-us-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', Helvetica;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 82.03125%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .about-us-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', Helvetica;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 82.03125%;
+  }
+}
+
+
 .about-pic-bg {
   border-radius: 30px;
   background: linear-gradient(81deg, #FFC096 0%, #FF7295 100%);
@@ -2075,6 +2102,69 @@ color: #FF7395;
   font-weight: 800;
   line-height: normal;
   width: 648px;
+}
+
+@media (min-width: 1280px) and (max-width: 1360px) {
+  .about-us-ques {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .about-us-ans {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 648px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .about-us-ques {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .about-us-ans {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 588px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .about-us-ques {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .about-us-ans {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 417px;
+  }
 }
 
 .about-us-anonimo {

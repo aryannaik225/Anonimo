@@ -19,7 +19,7 @@ const AboutSection = () => {
         <div className='flex w-full justify-center'>
           <NavBar />
         </div>
-        <div className='mt-32 w-full flex justify-center'>
+        <div className='lg:mt-32 mt-24 w-full flex justify-center'>
           <p className='about-us-title'>unlock<br/>honest insights</p>
         </div>
         <div className='w-full flex justify-center mt-14'>
