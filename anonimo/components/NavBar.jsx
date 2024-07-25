@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center' style={{width: '95.28%'}}>
         <div>
-          <a href="/"><Image src={AnonimoLogo}/></a>
+          <a href="/"><Image src={AnonimoLogo} className='anonimo-navbar-logo'/></a>
         </div> 
         <div className='flex gap-12 relative'>
             <Link href="/FAQ"><p className='nav-links cursor-pointer'>FAQ</p></Link>
@@ -18,7 +18,7 @@ const NavBar = () => {
             <Link href="/FeedbacksCode"><p className='nav-links cursor-pointer'>Feedbacks</p></Link>
             <Link href="mailto:aryann2203@gmail.com?subject=Anonimo%20Website"><p className='nav-links cursor-pointer'>Contact us</p></Link>
         </div>
-        <div className='bg-black rounded-full flex justify-center items-center gap-8' style={{width: '123px', height: '51px'}}>
+        <div className='bg-black rounded-full flex justify-center items-center nav-black-box' >
             <a href="https://www.github.com/aryannaik225"><Image src={Github} className='hover-git-insta'/></a>
             <a href="https://www.instagram.com/aryannaik225"><Image src={Instagram} className='hover-git-insta'/></a>
         </div>

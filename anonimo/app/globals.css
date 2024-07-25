@@ -76,6 +76,26 @@ body {
   text-shadow: none;
 }
 
+@media (min-width: 1024px) {
+  .nav-links {
+    font-size: 20px; /* Example property, modify as needed */
+  }
+}
+
+/* Media query for screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-links {
+    font-size: 18px; /* Adjust the font size */
+  }
+}
+
+/* Media query for screens between 640px and 768px */
+@media (min-width: 640px) and (max-width: 768px) {
+  .nav-links {
+    font-size: 16px; /* Adjust the font size */
+  }
+}
+
 .nav-links:hover {
   text-shadow: 2px 2px 0px #000000;
 }
@@ -209,10 +229,48 @@ body {
 
 .hover-git-insta {
   transition: all 0.5s ease-in-out;
+  width: 27px;
+  aspect-ratio: 1/1;
 }
 
 .hover-git-insta:hover {
   transform: scale(1.2);
+}
+
+@media (min-width: 1024px) {
+  .hover-git-insta {
+    transition: all 0.5s ease-in-out;
+    width: 27px;
+    aspect-ratio: 1/1;
+  }
+  
+  .hover-git-insta:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hover-git-insta {
+    transition: all 0.5s ease-in-out;
+    width: 23px;
+    aspect-ratio: 1/1;
+  }
+  
+  .hover-git-insta:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .hover-git-insta {
+    transition: all 0.5s ease-in-out;
+    width: 23px;
+    aspect-ratio: 1/1;
+  }
+  
+  .hover-git-insta:hover {
+    transform: scale(1.2);
+  }
 }
 
 .scroll-more1 {
@@ -2099,4 +2157,58 @@ color: #FF7395;
   width: 381px;
   height: 381px;
   flex-shrink: 0;
+}
+
+/* Base styles for screens below 640px */
+.anonimo-navbar-logo {
+  width: 70px;
+  aspect-ratio: 84/23;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .anonimo-navbar-logo {
+    width: 74px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .anonimo-navbar-logo {
+    width: 76px; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .anonimo-navbar-logo {
+    width: 84px;
+  }
+}
+
+.nav-black-box {
+  width: 84px;
+  height: 35px;
+  gap: 20px;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .nav-black-box {
+    width: 123px;
+    height: 51px;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav-black-box {
+    width: 123px;
+    height: 51px;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-black-box {
+    width: 123px;
+    height: 51px;
+    gap: 32px;
+  }
 }
