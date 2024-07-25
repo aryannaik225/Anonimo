@@ -1786,6 +1786,28 @@ color: #FF7395;
   line-height: normal;
 }
 
+@media (min-width: 1024px) {
+  .faq-txt {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1023px) {
+  .faq-txt{
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
 .faq-title {
   color: #FFF;
   font-family: 'Poppins', Helvetica;
@@ -1793,6 +1815,28 @@ color: #FF7395;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+@media (min-width: 1024px) {
+  .faq-title {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1023px) {
+  .faq-title {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
 }
 
 .faq-ques {
@@ -1804,6 +1848,28 @@ color: #FF7395;
   line-height: normal;
 }
 
+@media (min-width: 1024px) {
+  .faq-ques {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1023px) {
+  .faq-ques {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
 .faq-ans {
   color: #FFF;
   font-family: 'Poppins', Helvetica;
@@ -1812,6 +1878,30 @@ color: #FF7395;
   font-weight: 400;
   line-height: normal;
   width: 96.50%;
+}
+
+@media (min-width: 1024px) {
+  .faq-ans {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 96.50%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .faq-ans {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 96.50%;
+  }
 }
 
 .loader-container {
