@@ -8,7 +8,7 @@ const FooterFAQ = () => {
     <div className='flex w-full justify-center absolute items-center' style={{height: "50px"}}>
         <div className='flex justify-between' style={{width: "95.39065%"}}>
             <div>
-                <Link href="#"><p className='footer-txt2'>Anonimo</p></Link>
+                <Link href="/"><p className='footer-txt2'>Anonimo</p></Link>
             </div>
 
             <div className='flex justify-between gap-12' style={{marginLeft: "167px"}}>
