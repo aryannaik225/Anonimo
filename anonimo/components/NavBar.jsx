@@ -9,10 +9,10 @@ import Link from 'next/link';
 const NavBar = () => {
   return (
     <div className='flex justify-between items-center' style={{width: '95.28%'}}>
-        <div>
+        <div className='flex items-center justify-center'>
           <a href="/"><Image src={AnonimoLogo} className='anonimo-navbar-logo'/></a>
         </div> 
-        <div className='flex gap-12 relative'>
+        <div className='flex lg:gap-12 sm:gap-6 md:gap-9 relative'>
             <Link href="/FAQ"><p className='nav-links cursor-pointer'>FAQ</p></Link>
             <Link href="/About"><p className='nav-links cursor-pointer'>About</p></Link>
             <Link href="/FeedbacksCode"><p className='nav-links cursor-pointer'>Feedbacks</p></Link>
