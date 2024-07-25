@@ -11,7 +11,7 @@ const Footer = () => {
                 <Link href="#"><p className='footer-txt2'>Anonimo</p></Link>
             </div>
 
-            <div className='flex justify-between gap-12' style={{marginLeft: "167px"}}>
+            <div className='flex justify-between lg:gap-12 md:gap-6 sm:gap-4 lg:ml-[167px] md:ml-[120px] sm:ml-[90px]'>
                 <a href="https://www.github.com/aryannaik225/anonimo"><p className='footer-txt'>GitHub</p></a>
                 <a href="https://www.instagram.com/aryannaik225"><p className='footer-txt'>Instagram</p></a>
                 <a href="mailto:aryann2203@gmail.com?subject=Anonimo%20Website"><p className='footer-txt'>Email me</p></a>

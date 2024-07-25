@@ -1697,10 +1697,6 @@ color: #FF7395;
   transition: all 0.2s ease-in-out;
 }
 
-.footer-txt:hover {
-  transform: translateY(-5px);
-}
-
 .footer-txt2 {
   color: #FFF;
   font-family: 'Poppins', Helvetica;
@@ -1709,6 +1705,71 @@ color: #FF7395;
   font-weight: 800;
   line-height: normal;
 }
+
+@media (min-width: 1024px) {
+  .footer-txt {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer-txt2 {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .footer-txt {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer-txt2 {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-txt {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  .footer-txt2 {
+    color: #FFF;
+    font-family: 'Poppins', Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+.footer-txt:hover {
+  transform: translateY(-5px);
+}
+
 
 .faq-bg {
   border-radius: 37px;
