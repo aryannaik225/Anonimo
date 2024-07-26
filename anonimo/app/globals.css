@@ -2453,3 +2453,173 @@ color: #FF7395;
     gap: 32px;
   }
 }
+
+.input-box3 {
+  width: 100%;
+  height: auto;
+  max-height: 64px; /* 2 lines of text */
+  overflow-y: auto;
+  border-radius: 7px;
+  border: 1px solid #9f9f9f;
+  background: #fff;
+  font-family: "Satoshi Variable";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+  padding: 8px;
+  resize: none; /* Prevents resizing */
+}
+
+.input-box3::placeholder {
+  color: #9f9f9f;
+  font-weight: 400;
+}
+
+.input-box3:focus {
+  border: 2px solid #3f5eff;
+  outline: none;
+}
+
+.char-count {
+  font-size: 10px;
+  color: #9f9f9f;
+  text-align: right;
+  margin-top: 2px;
+}
+
+
+.image-upload-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.image-upload-box {
+  width: 100%;
+  max-width: 600px;
+  border: 2px dashed #d3d3d3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: height 0.2s ease;
+  min-height: 150px;
+  flex-wrap: wrap;
+}
+
+.image-upload-box.has-images {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.image-upload-content {
+  text-align: center;
+}
+
+.upload-icon {
+  font-size: 32px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.browse-button {
+  background-color: #ff9695;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.browse-button:hover {
+  background-color: #dd6968;
+}
+
+.selected-images-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.selected-image-item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.selected-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.remove-image-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.upload-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #d3d3d3;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+
+.upload-more:hover {
+  background-color: #f3f3f3;
+}
+
+.click-to-browse {
+  color: #000;
+  font-family: "Satoshi Variable";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.browse-btn {
+  border-radius: 4px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.browse-btn:hover {
+  background: #E7E8E7;
+  color: #FFF;
+}
+
+.drop-img-txt {
+  color: #9F9F9F;
+  font-family: "Satoshi Variable";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

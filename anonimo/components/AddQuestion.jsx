@@ -5,18 +5,20 @@ import Box from '../public/box-logo.svg'
 import SelectedArrow from '../public/selected-arrow.svg'
 import NotSelectedArrow from '../public/not-selected-arrow.svg'
 import WhiteArrow from '../public/white-arrow-2.svg'
+import ImageUpload from './ImageUpload';
 
-const PersonalInformation = () => {
-    const [email, setEmail] = useState('');
-    const [isValid, setIsValid] = useState(true);
-  
+
+const AddQuestion = () => {
+    const [description, setDescription] = useState('');
+
     const handleChange = (e) => {
       const value = e.target.value;
-      setEmail(value);
-      setIsValid(value === '' || /\S+@\S+\.\S+/.test(value));
-    }
+      if (value.length <= 1000) {
+        setDescription(value);
+      }
+    };
+  
 
-    
   return (
     <div className='rounded-3xl' style={{width: "559px", backgroundColor: "#FFF6F6"}}>
         <div className='flex w-full justify-end'>
@@ -26,10 +28,10 @@ const PersonalInformation = () => {
             <div style={{width: "506px"}}>
                 <div className='w-full flex justify-start gap-4'>
                     <Image src={Box} alt="Box Logo"/>
-                    <p className='personal-info-txt'>Personal Information</p>
+                    <p className='personal-info-txt'>Add Question</p>
                 </div>
                 <div className='w-full flex justify-start' style={{marginTop: "6px"}}>
-                    <p className='personal-info-txt2'>Add personal information</p>
+                    <p className='personal-info-txt2'>Add a new question</p>
                 </div>
                 <div className='w-full flex mt-7 items-center' style={{gap: "6px"}}>
                     <div className='flex' style={{gap: "5px"}}>
@@ -39,13 +41,13 @@ const PersonalInformation = () => {
                         <a href='../FeedbackForm/Personal-Information'><p className='personal-info-txt4'>User Info</p></a>
                     </div>
                     <div>
-                        <Image src={NotSelectedArrow} alt="Not Selected Arrow"/>
+                        <Image src={SelectedArrow} alt="Selected Arrow"/>
                     </div>
                     <div className='flex' style={{gap: "5px"}}>
-                        <a href="#" className='flex justify-center items-center personal-info-gray-circle'>
-                            <p className='personal-info-txt5'>02</p>
+                        <a href="./Add-Question" className='flex justify-center items-center' style={{width: "17px", height: "15px", backgroundColor: "#FF9695", borderRadius: "7.5px"}}>
+                            <p className='personal-info-txt3'>02</p>
                         </a>
-                        <a href="#"><p className='personal-info-txt6'>Question Setup</p></a>
+                        <a href="./Add-Question"><p className='personal-info-txt4'>Question Setup</p></a>
                     </div>
                     <div>
                         <Image src={NotSelectedArrow} alt="Not Selected Arrow"/>
@@ -71,35 +73,44 @@ const PersonalInformation = () => {
                     <div className='mt-5 mb-5 gap-5 flex flex-col mx-5'>
                         <div className='gap-2 flex flex-col'>
                             <div className='flex gap-0'>
-                                <p className='form-txt1'>Name</p>
+                                <p className='form-txt1'>Your Question</p>
                                 <p className='form-astric'>*</p>
                             </div>
                             <div>
-                                <input type="text" className='input-box' placeholder="Enter Name"/>
+                                <input type="text" className='input-box' placeholder="What do you honestly think about this project?"/>
                             </div>
                         </div>
 
                         <div className='gap-2 flex flex-col'>
                             <div className='flex gap-0'>
-                                <p className='form-txt1'>Email</p>
-                                <p className='form-astric'>*</p>
+                                <p className='form-txt1'>Description</p>
+                                <p className='form-astric'></p>
                             </div>
                             <div>
-                                <input type="mail" placeholder="Enter Name" value={email} onChange={handleChange} className={`input-box2 ${!isValid && email ? 'invalid' : ''}`}/>
+                                <textarea
+                                    className='input-box3'
+                                    placeholder='Write something about your question'
+                                    value={description}
+                                    onChange={handleChange}
+                                    rows="2"
+                                ></textarea>
+                                <p className='char-count'>{description.length} / 1000</p>
                             </div>
                         </div>
 
-                        <div className='gap-2 flex flex-col'>
+                        <div className='gap-1 flex flex-col'>
                             <div className='flex gap-0'>
-                                <p className='form-txt1'>Username &#40;optional&#41;</p>
+                                <p className='form-txt1'>Link</p>
                             </div>
                             <div>
-                                <input type="text" className='input-box' placeholder="Enter Username"/>
+                                <input type="text" className='input-box' placeholder="Enter URL"/>
                             </div>
                             <div>
-                                <p className='form-txt2'>Give a username to be shown instead of your name</p>
+                                <p className='form-txt2'>Enter url to your project if applicable</p>
                             </div>
                         </div>
+
+                        <ImageUpload />
                     </div>
                 </div>
 
@@ -115,4 +126,4 @@ const PersonalInformation = () => {
   )
 }
 
-export default PersonalInformation
+export default AddQuestion
