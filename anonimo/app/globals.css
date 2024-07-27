@@ -59,8 +59,8 @@ body {
 }
 
 .hero-bg {
-  /* border-radius: 34px 34px 0 0;
-  background: linear-gradient(149deg, #FFC096 0%, #FF7395 100%); */
+  border-radius: 34px 34px 0 0;
+  /* background: linear-gradient(149deg, #FFC096 0%, #FF7395 100%); */
   background: url('../public/hero-bg-og.png');
   background-size: cover;
 }
@@ -140,6 +140,18 @@ body {
   text-align: center;
 }
 
+@media (min-width: 1280px) {
+  .hero-text {
+    font-size: 96px; /* Adjust the font size */
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-text {
+    font-size: 110px; /* Adjust the font size */
+  }
+}
+
 .line {
   display: block;
   margin-bottom: 0px; /* Adjust this value as needed */
@@ -210,7 +222,7 @@ body {
   height: 211.229px;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1440px) {
   .home-hand-wave {
     width: 270px;
     height: 270px;
@@ -457,6 +469,8 @@ color: #FF7395;
   position: absolute;
   top: 13px;
   left: 19px;
+  display: flex;
+  align-items: center;
 }
 
 .anonymous-convo-2 {
@@ -481,6 +495,8 @@ color: #FF7395;
   position: absolute;
   top: 14px;
   right: 6.23px;
+  display: flex;
+  align-items: center;
 }
 
 .anonymous-convo-3 {
@@ -504,6 +520,8 @@ color: #FF7395;
   position: absolute;
   top: 13px;
   left: 19px;
+  display: flex;
+  align-items: center;
 }
 
 .anonymous-convo-4 {
@@ -523,9 +541,12 @@ color: #FF7395;
 
 .anonymous-convo-4-text {
   width: 0px;
+  height: 0px;
   position: absolute;
   top: 14px;
   left: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .subtext1.anonymous-convo-text {
@@ -626,6 +647,7 @@ color: #FF7395;
 
 .subtext1.anonymous-convo-4-text {
   width: 200px;
+  height: 55px;
   position: absolute;
   top: 14px;
   left: 15px;
@@ -683,6 +705,13 @@ color: #FF7395;
   height: 243.18px;
 }
 
+@media (max-width: 1535px) {
+  .subtext2.workplace-like-img {
+    width: 223.18px;
+    height: 223.18px;
+  }
+}
+
 .workplace-rocket {
   top: 0;
   right: 0;
@@ -705,6 +734,13 @@ color: #FF7395;
   height: 263px;
 }
 
+@media (max-width: 1535px) {
+  .subtext2.workplace-rocket-img {
+    width: 243px;
+    height: 243px;
+  }
+}
+
 .workplace-shield {
   top: 0;
   right: 0;
@@ -725,8 +761,15 @@ color: #FF7395;
 }
 
 .subtext2.workplace-shield-img {
-  width: 293px;
-  height: 293px;
+  width: 273px;
+  height: 273px;
+}
+
+@media (max-width: 1535px) {
+  .subtext2.workplace-shield-img {
+    width: 253px;
+    height: 253px;
+  }
 }
 
 .workplace-briefcase {
@@ -751,6 +794,13 @@ color: #FF7395;
 .subtext2.workplace-briefcase-img {
   width: 335px;
   height: 335px;
+}
+
+@media (max-width: 1535px) {
+  .subtext2.workplace-briefcase-img {
+    width: 315px;
+    height: 315px;
+  }
 }
 
 .workplace-convo-text {
@@ -804,13 +854,17 @@ color: #FF7395;
 
 .workplace-convo-1-text {
   width: 0;
+  height: 0;
 }
 
 .subtext2.workplace-convo-1-text {
   width: 216.45px;
-  top: 14px;
+  height: 55px;
+  top: 11px;
   left: 16.23px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .workplace-convo-2 {
@@ -845,9 +899,12 @@ color: #FF7395;
 
 .subtext2.workplace-convo-2-text {
   width: 200px;
+  height: 55px;
   top: 14px;
   left: 15px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .workplace-convo-3 {
@@ -884,7 +941,10 @@ color: #FF7395;
   top: 13px;
   left: 13px;
   width: 248px;
+  height: 71px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .workplace-convo-4 {
@@ -919,9 +979,12 @@ color: #FF7395;
 
 .subtext2.workplace-convo-4-text {
   width: 237px;
+  height: 71px;
   top: 13px;
   left: 19px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .workplace-convo-text,
@@ -1076,7 +1139,10 @@ color: #FF7395;
   top: 14px;
   left: 15px;
   width: 200px;
+  height: 47px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .personal-convo-2 {
@@ -1121,7 +1187,10 @@ color: #FF7395;
   top: 14px;
   right: 15.19px;
   width: 202.486px;
+  height: 47px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .personal-convo-3 {
@@ -1166,7 +1235,10 @@ color: #FF7395;
   top: 9.42px;
   left: 16.42px;
   width: 211.051px;
+  height: 47px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .personal-convo-4 {
@@ -1181,7 +1253,7 @@ color: #FF7395;
   top: 570px;
   left: 117px;
   width: 236px;
-  height: 62px;
+  height: 82px;
   position: absolute;
 }
 
@@ -1197,7 +1269,7 @@ color: #FF7395;
   top: 0;
   left: 0;
   width: 236px;
-  height: 62px;
+  height: 82px;
   position: absolute;
 }
 
@@ -1211,7 +1283,11 @@ color: #FF7395;
   top: 15px;
   left: 24px;
   width: 188px;
+  height: 42px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .personal-convo-text {
@@ -1284,6 +1360,12 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (max-width: 1535px) {
+  .subtext4.relationship-icecream {
+    top: 504px;
+  }
+}
+
 .relationship-icecream-img {
   width: 0;
   height: 0;
@@ -1293,6 +1375,13 @@ color: #FF7395;
   width: 180.288px;
   height: 324.277px;
   transform: rotate(18.538deg);
+}
+
+@media (max-width: 1535px) {
+  .subtext4.relationship-icecream-img {
+    width: 150.288px;
+    height: 284.277px;
+  }
 }
 
 .relationship-pink-heart {
@@ -1321,6 +1410,13 @@ color: #FF7395;
   height: 243.182px;
 }
 
+@media (max-width: 1535px) {
+  .subtext4.relationship-pink-heart-img {
+    width: 223.179px;
+    height: 223.182px;
+  }
+}
+
 .relationship-cloud {
   top: 0;
   right: 0;
@@ -1346,6 +1442,13 @@ color: #FF7395;
 .subtext4.relationship-cloud-img {
   width: 351px;
   height: 351px;
+}
+
+@media (max-width: 1535px) {
+  .subtext4.relationship-cloud-img {
+    width: 311px;
+    height: 311px;
+  }
 }
 
 .relationship-convo-1 {
@@ -1381,10 +1484,14 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-1-text {
-  top: 14px;
+  top: 6px;
   left: 15px;
   width: 200px;
+  height: 42px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .relationship-convo-2 {
@@ -1423,7 +1530,10 @@ color: #FF7395;
   top: 9.42px;
   right: 16.03px;
   width: 211.051px;
+  height: 55px;
   position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .relationship-convo-3 {
@@ -1437,8 +1547,8 @@ color: #FF7395;
 .subtext4.relationship-convo-3 {
   top: 591px;
   right: 107px;
-  width: 234px;
-  height: 63px;
+  width: 224px;
+  height: 73px;
   position: absolute;
   z-index: 1;
 }
@@ -1449,8 +1559,8 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-3-img {
-  width: 234px;
-  height: 63px;
+  width: 224px;
+  height: 73px;
 }
 
 .relationship-convo-3-text {
@@ -1460,10 +1570,14 @@ color: #FF7395;
 }
 
 .subtext4.relationship-convo-3-text {
-  top: 14px;
+  top: 7px;
   left: 15.19px;
   width: 202.486px;
+  height: 47px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .relationship-convo-4 {
@@ -1502,7 +1616,11 @@ color: #FF7395;
   top: 12px;
   left: 24px;
   width: 188px;
+  height: 42px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .relationship-convo-text {

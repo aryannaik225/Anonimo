@@ -27,13 +27,13 @@ const HeroSection = () => {
             </div>
           </a>
         </div>
-        <div className='absolute floatee' style={{top: "78px", left: "139px"}}>
+        <div className='absolute floatee 2xl:top-[78px] 2xl:left-[139px] xl:top-[78px] xl:left-[129px] '>
           <Image src={HandWave} alt="Hand Wave" className='pointer-events-none home-hand-wave'/>
         </div>
-        <div className='absolute floatee2' style={{top: "102px", right: "270.29px"}}>
+        <div className='absolute floatee2 2xl:top-[102px] 2xl:right-[270.29px] xl:top-[102px] xl:right-[200.29px]'>
           <Image src={RedHeart} alt="Red Heart" className="pointer-events-none home-red-heart"/>
         </div>
-        <div className='absolute floatee3' style={{top: "424px", right: "101.9px"}}>
+        <div className='absolute floatee3 2xl:top-[424px] 2xl:right-[101.9px] xl:top-[424px] xl:right-[1.9px]'>
           <Image src={AnonimousFace} alt="Anonymous Guy" className="pointer-events-none home-anonymous-guy"/>
         </div>
       </div>

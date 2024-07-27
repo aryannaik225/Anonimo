@@ -32,7 +32,7 @@ const FeedbackZone = () => {
     }, []);
 
   return (
-    <div className='w-full absolute' style={{marginTop: "802px"}}>
+    <div className='w-full absolute 2xl:mt-[802px] xl:mt-[712px] lg:mt-[782px]'>
         <div className='w-full flex justify-center items-center'>
             <Image src={WhiteArrow} />
             <p className='ml-1 scroll-more1'>
