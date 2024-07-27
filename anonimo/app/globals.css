@@ -140,6 +140,12 @@ body {
   text-align: center;
 }
 
+@media(min-width: 1024px) {
+  .hero-text {
+    font-size: 84px; /* Adjust the font size */
+  }
+}
+
 @media (min-width: 1280px) {
   .hero-text {
     font-size: 96px; /* Adjust the font size */
@@ -220,6 +226,40 @@ body {
 .home-anonymous-guy {
   width: 211.229px;
   height: 211.229px;
+}
+
+@media (min-width: 1024px) {
+  .home-hand-wave {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .home-red-heart {
+    width: 138px;
+    height: 123.571px;
+  }
+  
+  .home-anonymous-guy {
+    width: 191.229px;
+    height: 191.229px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-hand-wave {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .home-red-heart {
+    width: 168px;
+    height: 153.571px;
+  }
+  
+  .home-anonymous-guy {
+    width: 211.229px;
+    height: 211.229px;
+  }
 }
 
 @media (min-width: 1440px) {
