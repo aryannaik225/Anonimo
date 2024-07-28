@@ -640,6 +640,12 @@ color: #FF7395;
   flex-shrink: 0;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext1.anonymous-convo-1 {
+    left: 70px;
+  }
+}
+
 .subtext1.anonymous-convo-1-img {
   width: 274px;
   height: 87px;
@@ -744,9 +750,9 @@ color: #FF7395;
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext1.anonymous-convo-3-text {
-    width: 227px;
+    width: 187px;
     top: 4px;
-    left: 3px;
+    left: 22px;
   }
 }
 
@@ -768,7 +774,7 @@ color: #FF7395;
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext1.anonymous-convo-4-img {
     width: 201px;
-    height: 67px;
+    height: 73px;
   }
 }
 
@@ -782,7 +788,7 @@ color: #FF7395;
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext1.anonymous-convo-4-text {
-    top: 2px;
+    top: 5px;
     left: 3px;
   }
 }
