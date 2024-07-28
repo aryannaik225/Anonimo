@@ -835,6 +835,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-like {
+    right: 40px;
+    top: 30px;
+  }
+}
+
 .workplace-like-img{
   width: 0px;
   height: 0px;
@@ -849,6 +856,13 @@ color: #FF7395;
   .subtext2.workplace-like-img {
     width: 223.18px;
     height: 223.18px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-like-img {
+    width: 173px;
+    height: 173px;
   }
 }
 
@@ -881,6 +895,13 @@ color: #FF7395;
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-rocket-img {
+    width: 203px;
+    height: 203px;
+  }
+}
+
 .workplace-shield {
   top: 0;
   right: 0;
@@ -909,6 +930,12 @@ color: #FF7395;
   .subtext2.workplace-shield-img {
     width: 253px;
     height: 253px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-shield-img {
+    width: ;
   }
 }
 
