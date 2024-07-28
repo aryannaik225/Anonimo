@@ -9,7 +9,7 @@ import StarImg from '../public/home-star.png'
 
 const JoinBuzz = () => {
   return (
-    <div className='flex w-full justify-center absolute' style={{marginTop: "1740px"}}>
+    <div className='flex w-full justify-center absolute 2xl:mt-[1740px] xl:mt-[1600px]'>
         <div className='absolute bottom-bg' style={{width: "94.375%"}}>
             <div className='w-full flex justify-center items-center mt-1'>
                 <Image src={BlackArrow} />

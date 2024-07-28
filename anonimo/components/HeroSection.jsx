@@ -27,13 +27,13 @@ const HeroSection = () => {
             </div>
           </a>
         </div>
-        <div className='absolute floatee 2xl:top-[78px] 2xl:left-[139px] xl:top-[78px] xl:left-[129px] lg:top-[78px] lg:left-[109px]'>
+        <div className='absolute floatee 2xl:top-[78px] 2xl:left-[139px] xl:top-[78px] xl:left-[129px] lg:top-[78px] lg:left-[109px] pointer-events-none'>
           <Image src={HandWave} alt="Hand Wave" className='pointer-events-none home-hand-wave'/>
         </div>
-        <div className='absolute floatee2 2xl:top-[102px] 2xl:right-[270.29px] xl:top-[102px] xl:right-[200.29px] lg:top-[102px] lg:right-[130.29px]'>
+        <div className='absolute floatee2 2xl:top-[102px] 2xl:right-[270.29px] xl:top-[102px] xl:right-[200.29px] lg:top-[102px] lg:right-[130.29px] pointer-events-none'>
           <Image src={RedHeart} alt="Red Heart" className="pointer-events-none home-red-heart"/>
         </div>
-        <div className='absolute floatee3 2xl:top-[424px] 2xl:right-[101.9px] xl:top-[424px] xl:right-[1.9px] lg:top-[424px] lg:right-[1.9px]'>
+        <div className='absolute floatee3 2xl:top-[424px] 2xl:right-[101.9px] xl:top-[424px] xl:right-[1.9px] lg:top-[424px] lg:right-[1.9px] pointer-events-none'>
           <Image src={AnonimousFace} alt="Anonymous Guy" className="pointer-events-none home-anonymous-guy"/>
         </div>
       </div>
