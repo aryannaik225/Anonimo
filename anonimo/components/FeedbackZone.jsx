@@ -32,7 +32,7 @@ const FeedbackZone = () => {
     }, []);
 
   return (
-    <div className='w-full absolute 2xl:mt-[802px] xl:mt-[730px] lg:mt-[782px]'>
+    <div className='w-full absolute 2xl:mt-[802px] xl:mt-[730px] lg:mt-[680px]'>
         <div className='w-full flex justify-center items-center'>
             <Image src={WhiteArrow} />
             <p className='ml-1 scroll-more1'>
@@ -46,7 +46,7 @@ const FeedbackZone = () => {
                 <span className=''>zone</span>
             </p>
         </div>
-        <div className='mt-16 w-full flex justify-center mb-36'>
+        <div className='mt-16 w-full flex justify-center mb-36 lg:mt-12 xl:mt-16'>
             <p className='feedback-subtext flex flex-col'>
                 <span className='feedback-subtext-text' onMouseEnter={() => handleMouseEnter('subtext1')} >anonymous opinions</span><br/>
                 <span className='feedback-subtext-text' onMouseEnter={() => handleMouseEnter('subtext2')} >workplace insights</span><br/>

@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='flex w-full justify-center absolute items-center h-[50px] 2xl:mt-[2327px] xl:mt-[2190px]'>
+    <div className='flex w-full justify-center absolute items-center h-[50px] 2xl:mt-[2327px] xl:mt-[2190px] lg:mt-[2327px]'>
         <div className='flex justify-between' style={{width: "95.39065%"}}>
             <div>
                 <Link href="#"><p className='footer-txt2'>Anonimo</p></Link>
