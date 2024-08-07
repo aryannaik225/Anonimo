@@ -141,7 +141,7 @@ const FeedbackZone = () => {
             <Image src={PersonalMegaphoneImg} className={`personal-megaphone-img ${hovered}`} />
         </div>
 
-        <div className={`personal-convo-1 floatee ${hovered}`}>
+        <div className={`personal-convo-1 floatee2 ${hovered}`}>
             <Image src={AnonymousCloudConv1} className={`personal-convo-1-img ${hovered}`} />
             <p className={`personal-convo-text personal-convo-1-text ${hovered}`}>Do I lack confidence in any areas?</p>
         </div>

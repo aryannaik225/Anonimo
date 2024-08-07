@@ -1305,6 +1305,15 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-trophy {
+    left: 0;
+    top: 0;
+    width: 286.973px;
+    height: 286.973px;
+  }
+}
+
 .personal-trophy-img {
   width: 0;
   height: 0;
@@ -1313,6 +1322,13 @@ color: #FF7395;
 .subtext3.personal-trophy-img {
   width: 326.973px;
   height: 326.973px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-trophy-img {
+    width: 286.973px;
+    height: 286.973px;
+  }
 }
 
 .personal-headphone {
@@ -1331,6 +1347,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-headphone {
+    top: 429px;
+    right: 0;
+  }
+}
+
 .personal-headphone-img {
   width: 0;
   height: 0;
@@ -1339,6 +1362,13 @@ color: #FF7395;
 .subtext3.personal-headphone-img {
   width: 286.922px;
   height: 286.922px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-headphone-img {
+    width: 266.922px;
+    height: 266.922px;
+  }
 }
 
 .personal-megaphone {
@@ -1357,6 +1387,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-megaphone {
+    top: 48px;
+    right: 24px;
+  }
+}
+
 .personal-megaphone-img {
   width: 0;
   height: 0;
@@ -1365,6 +1402,13 @@ color: #FF7395;
 .subtext3.personal-megaphone-img {
   width: 222px;
   height: 222px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-megaphone-img {
+    width: 182px;
+    height: 182px;
+  }
 }
 
 .personal-convo-1 {
@@ -1383,6 +1427,12 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-1 {
+    top: 271px;
+  }
+}
+
 .personal-convo-1-img {
   top: 0;
   left: 0;
@@ -1399,6 +1449,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-1-img {
+    width: 201px;
+    height: 73px;
+  }
+}
+
 .personal-convo-1-text {
   top: 14px;
   left: 15px;
@@ -1413,6 +1470,15 @@ color: #FF7395;
   position: absolute;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-1-text {
+    top: 9px;
+    left: 15px;
+    width: 170px;
+    height: 47px;
+  }
 }
 
 .personal-convo-2 {
@@ -1581,6 +1647,13 @@ color: #FF7395;
   font-weight: 700;
   line-height: normal;
   z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-text {
+    font-size: 14px !important;
+    font-weight: 600;
+  }
 }
 
 .personal-convo-text,
