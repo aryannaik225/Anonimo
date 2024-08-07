@@ -117,7 +117,7 @@ const FeedbackZone = () => {
             <p className={`workplace-convo-text workplace-convo-2-text ${hovered}`}>What changes do you want at work?</p>
         </div>
 
-        <div className={`workplace-convo-3 floatee2 ${hovered}`}>
+        <div className={`workplace-convo-3 floatee ${hovered}`}>
             <Image src={AnonymousCloudConv3} className={`workplace-convo-3-img ${hovered}`} />
             <p className={`workplace-convo-text workplace-convo-3-text ${hovered}`}>What do you honestly think about the management style here?</p>
         </div>

@@ -838,7 +838,7 @@ color: #FF7395;
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext2.workplace-like {
     right: 40px;
-    top: 30px;
+    top: 70px;
   }
 }
 
@@ -906,6 +906,9 @@ color: #FF7395;
   top: 0;
   right: 0;
   position: absolute;
+  z-index: 2;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
 }
 
 .subtext2.workplace-shield {
@@ -935,7 +938,8 @@ color: #FF7395;
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext2.workplace-shield-img {
-    width: ;
+    width: 193px;
+    height: 193px;
   }
 }
 
@@ -950,7 +954,16 @@ color: #FF7395;
   left: -14.3px;
   width: 335px;
   height: 335px;
-  position: absolute
+  position: absolute;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-briefcase {
+    top: 469px;
+  }
 }
 
 .workplace-briefcase-img {
@@ -967,6 +980,13 @@ color: #FF7395;
   .subtext2.workplace-briefcase-img {
     width: 315px;
     height: 315px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-briefcase-img {
+    width: 255px;
+    height: 255px;
   }
 }
 
@@ -991,6 +1011,13 @@ color: #FF7395;
   font-weight: 700;
   line-height: normal;
   z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-text {
+    font-size: 14px !important;
+    font-weight: 600;
+  }
 }
 
 .workplace-convo-1 {
@@ -1019,6 +1046,13 @@ color: #FF7395;
   left: 0;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-1-img {
+    width: 220px;
+    height: 77px;
+  }
+}
+
 .workplace-convo-1-text {
   width: 0;
   height: 0;
@@ -1034,6 +1068,15 @@ color: #FF7395;
   align-items: center;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-1-text {
+    width: 196.45px;
+    height: 55px;
+    top: 6px;
+    left: 14.23px;
+  }
+}
+
 .workplace-convo-2 {
   top: 0;
   right: 0;
@@ -1044,6 +1087,12 @@ color: #FF7395;
   top: 276px;
   right: 191px;
   position: absolute;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-2 {
+    right: 81px;
+  }
 }
 
 .workplace-convo-2-img {
@@ -1060,6 +1109,13 @@ color: #FF7395;
   left: 0;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-2-img {
+    width: 211px;
+    height: 67px;
+  }
+}
+
 .workplace-convo-2-text {
   width: 0;
 }
@@ -1074,6 +1130,15 @@ color: #FF7395;
   align-items: center;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-2-text {
+    width: 180px;
+    height: 55px;
+    top: 3px;
+    left: 15px;
+  }
+}
+
 .workplace-convo-3 {
   top: 0;
   right: 0;
@@ -1081,8 +1146,8 @@ color: #FF7395;
 }
 
 .subtext2.workplace-convo-3 {
-  top: 662px;
-  right: 78px;
+  top: 622px;
+  right: 48px;
   position: absolute;
 }
 
@@ -1100,6 +1165,13 @@ color: #FF7395;
   left: 0;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-3-img {
+    width: 254px;
+    height: 89px;
+  }
+}
+
 .workplace-convo-3-text {
   width: 0;
 }
@@ -1114,6 +1186,15 @@ color: #FF7395;
   align-items: center;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-3-text {
+    width: 228px;
+    height: 71px;
+    top: 4px;
+    left: 13px;
+  }
+}
+
 .workplace-convo-4 {
   top: 0;
   left: 0;
@@ -1124,6 +1205,12 @@ color: #FF7395;
   top: 446px;
   left: 101px;
   position: absolute;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-4 {
+    left: 51px;
+  }
 }
 
 .workplace-convo-4-img {
@@ -1140,6 +1227,13 @@ color: #FF7395;
   left: 0;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-4-img {
+    width: 244px;
+    height: 84px;
+  }
+}
+
 .workplace-convo-4-text {
   width: 0px;
 }
@@ -1152,6 +1246,15 @@ color: #FF7395;
   position: absolute;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext2.workplace-convo-4-text {
+    width: 207px;
+    height: 71px;
+    top: 2px;
+    left: 19px;
+  }
 }
 
 .workplace-convo-text,
