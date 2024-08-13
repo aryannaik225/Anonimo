@@ -1308,7 +1308,7 @@ color: #FF7395;
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext3.personal-trophy {
     left: 0;
-    top: 0;
+    top: 25px;
     width: 286.973px;
     height: 286.973px;
   }
@@ -1385,6 +1385,10 @@ color: #FF7395;
   width: 222px;
   height: 222px;
   position: absolute;
+  -webkit-filter: drop-shadow(0px 2px 5px #222);
+  filter: drop-shadow(0px 2px 5px #222);
+  z-index: 2;
+
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -1451,7 +1455,7 @@ color: #FF7395;
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext3.personal-convo-1-img {
-    width: 201px;
+    width: 211px;
     height: 73px;
   }
 }
@@ -1475,7 +1479,7 @@ color: #FF7395;
 @media (min-width: 1024px) and (max-width: 1279px) {
   .subtext3.personal-convo-1-text {
     top: 9px;
-    left: 15px;
+    left: 22px;
     width: 170px;
     height: 47px;
   }
@@ -1497,6 +1501,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-2 {
+    top: 218px;
+    right: 35.13px;
+  }
+}
+
 .personal-convo-2-img {
   top: 0;
   left: 0;
@@ -1513,6 +1524,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-2-img {
+    width: 203.871px;
+    height: 73px;
+  }
+}
+
 .personal-convo-2-text {
   top: 0;
   right: 0;
@@ -1527,6 +1545,15 @@ color: #FF7395;
   position: absolute;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-2-text {
+    top: 9px;
+    right: 45.19px;
+    width: 172.486px;
+    height: 47px;
+  }
 }
 
 .personal-convo-3 {
@@ -1561,6 +1588,13 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-3-img {
+    width: 194px;
+    height: 72px;
+  }
+}
+
 .personal-convo-3-text {
   top: 0;
   left: 0;
@@ -1575,6 +1609,15 @@ color: #FF7395;
   position: absolute;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-3-text {
+    top: 10.42px;
+    left: 8.42px;
+    width: 181.051px;
+    height: 47px;
+  }
 }
 
 .personal-convo-4 {
@@ -1593,6 +1636,15 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-4 {
+    top: 520px;
+    left: 117px;
+    width: 196px;
+    height: 72px;
+  }
+}
+
 .personal-convo-4-img {
   top: 0;
   left: 0;
@@ -1607,6 +1659,13 @@ color: #FF7395;
   width: 236px;
   height: 82px;
   position: absolute;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-4-img {
+    width: 196px;
+    height: 72px;
+  }
 }
 
 .personal-convo-4-text {
@@ -1624,6 +1683,15 @@ color: #FF7395;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext3.personal-convo-4-text {
+    top: 11px;
+    left: 22px;
+    width: 158px;
+    height: 42px;
+  }
 }
 
 .personal-convo-text {
@@ -1701,11 +1769,22 @@ color: #FF7395;
   height: 324.277px;
   transform: rotate(18.538deg);
   position: absolute;
+  -webkit-filter: drop-shadow(0px 2px 5px #222);
+  filter: drop-shadow(0px 2px 5px #222);
+  z-index: 2;
+
 }
 
 @media (max-width: 1535px) {
   .subtext4.relationship-icecream {
     top: 504px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-icecream {
+    top: 434px;
+    left: 109px;
   }
 }
 
@@ -1727,6 +1806,13 @@ color: #FF7395;
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-icecream-img {
+    width: 130.288px;
+    height: 244.277px;
+  }
+}
+
 .relationship-pink-heart {
   top: 0;
   right: 0;
@@ -1741,6 +1827,16 @@ color: #FF7395;
   width: 243.179px;
   height: 243.182px;
   position: absolute;
+  -webkit-filter: drop-shadow(0px 2px 5px #222);
+  filter: drop-shadow(0px 2px 5px #222);
+  z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-pink-heart {
+    top: 100px;
+    right: 11px;
+  }
 }
 
 .relationship-pink-heart-img {
@@ -1760,6 +1856,13 @@ color: #FF7395;
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-pink-heart-img {
+    width: 203.179px;
+    height: 203.182px;
+  }
+}
+
 .relationship-cloud {
   top: 0;
   right: 0;
@@ -1774,7 +1877,18 @@ color: #FF7395;
   width: 351px;
   height: 351px;
   position: absolute;
+  -webkit-filter: drop-shadow(0px 2px 5px #222);
+  filter: drop-shadow(0px 2px 5px #222);
   z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-cloud {
+    top: 370px;
+    right: -54px;
+    width: 311px;
+    height: 311px;
+  }
 }
 
 .relationship-cloud-img {
@@ -1791,6 +1905,13 @@ color: #FF7395;
   .subtext4.relationship-cloud-img {
     width: 311px;
     height: 311px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-cloud-img {
+    width: 251px;
+    height: 251px;
   }
 }
 
@@ -1820,6 +1941,13 @@ color: #FF7395;
   height: 61px;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-1-img {
+    width: 201px;
+    height: 61px;
+  }
+}
+
 .relationship-convo-1-text {
   top: 0;
   left: 0;
@@ -1835,6 +1963,15 @@ color: #FF7395;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-1-text {
+    top: 5px;
+    left: 17px;
+    width: 170px;
+    height: 42px;
+  }
 }
 
 .relationship-convo-2 {
@@ -1853,6 +1990,15 @@ color: #FF7395;
   position: absolute;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-2 {
+    top: 272px;
+    right: 47px;
+    width: 184px;
+    height: 69px;
+  }
+}
+
 .relationship-convo-2-img {
   width: 0;
   height: 0;
@@ -1861,6 +2007,13 @@ color: #FF7395;
 .subtext4.relationship-convo-2-img {
   width: 244px;
   height: 79px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-2-img {
+    width: 184px;
+    height: 69px;
+  }
 }
 
 .relationship-convo-2-text {
@@ -1877,6 +2030,15 @@ color: #FF7395;
   position: absolute;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-2-text {
+    top: 3.42px;
+    right: 1.03px;
+    width: 181.051px;
+    height: 55px;
+  }
 }
 
 .relationship-convo-3 {
@@ -1906,6 +2068,13 @@ color: #FF7395;
   height: 73px;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-3-img {
+    width: 184px;
+    height: 67px;
+  }
+}
+
 .relationship-convo-3-text {
   top: 0;
   left: 0;
@@ -1921,6 +2090,15 @@ color: #FF7395;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-3-text {
+    top: 2px;
+    left: 45.19px;
+    width: 172.486px;
+    height: 47px;
+  }
 }
 
 .relationship-convo-4 {
@@ -1987,6 +2165,13 @@ color: #FF7395;
   font-weight: 700;
   line-height: normal;
   z-index: 2;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subtext4.relationship-convo-text {
+    font-size: 14px !important;
+    font-weight: 600;
+  }
 }
 
 .relationship-convo-text,

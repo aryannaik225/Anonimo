@@ -146,12 +146,12 @@ const FeedbackZone = () => {
             <p className={`personal-convo-text personal-convo-1-text ${hovered}`}>Do I lack confidence in any areas?</p>
         </div>
 
-        <div className={`personal-convo-2 floatee3 ${hovered}`}>
+        <div className={`personal-convo-2 floatee ${hovered}`}>
             <Image src={AnonymousCloudConv2} className={`personal-convo-2-img ${hovered}`} />
             <p className={`personal-convo-text personal-convo-2-text ${hovered}`}>What habits should I improve?</p>
         </div>
 
-        <div className={`personal-convo-3 floatee2 ${hovered}`}>
+        <div className={`personal-convo-3 floatee3 ${hovered}`}>
             <Image src={AnonymousCloudConv3} className={`personal-convo-3-img ${hovered}`} />
             <p className={`personal-convo-text personal-convo-3-text ${hovered}`}>Which skills should I develop?</p>
         </div>
